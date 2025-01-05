@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Node.h"
 
-int main(){
+int main() {
     Node<char>* first = new Node<char>('A');
     first = new Node<char>('R', first);
     first = new Node<char>('P', first);
