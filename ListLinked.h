@@ -117,7 +117,7 @@ class ListLinked : public List<T> {
         	return removedData;
 	    }
 
-        T get(int pos) {
+        T get(int pos) const override {
 		    Node<T>* current = first;
             
             if (pos < 0 || pos >= n) {
